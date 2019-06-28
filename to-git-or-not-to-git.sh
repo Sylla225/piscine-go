@@ -1,3 +1,2 @@
 #!/bin/bash
-
-echo "47231191"
+curl -s https://api.github.com/users/Sylla225 | jq '.id'
